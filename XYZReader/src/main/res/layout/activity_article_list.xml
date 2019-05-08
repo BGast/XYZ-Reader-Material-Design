@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#BDBDBD">
+    android:background="?colorPrimary">
 
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/swipe_refresh_layout"
@@ -26,7 +26,7 @@
         android:id="@+id/toolbar_container"
         android:layout_width="match_parent"
         android:layout_height="112dp"
-        android:background="@color/grey_background"
+        android:background="?colorPrimaryDark"
         android:elevation="8dp">
 
         <android.support.v7.widget.Toolbar

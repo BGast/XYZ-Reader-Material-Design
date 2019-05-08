@@ -8,5 +8,6 @@
     <string name="action_share">Share</string>
 
     <string name="up">Up</string>
+    <string name="test_text">This is some test text. Trying to figure out how this should look. I think if I get enough text in here though, I may just have a good example to piece this together. I got this.</string>
 
 </resources>
