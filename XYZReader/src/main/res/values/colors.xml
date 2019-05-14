@@ -18,7 +18,7 @@
 <resources>
     <color name="photo_placeholder">#ccc</color>
 
-    <color name="theme_primary">#BDBDBD</color>
+    <color name="theme_primary">#757575</color>
     <color name="theme_primary_dark">#424242</color>
     <color name="theme_accent">#2979FF</color>
 
@@ -26,4 +26,5 @@
     <color name="ltgray">#757575</color>
     <color name="text_black">#000000</color>
     <color name="text_white">#ffffff</color>
+    <color name="coordinator_layout_background">#BDBDBD</color>
 </resources>
