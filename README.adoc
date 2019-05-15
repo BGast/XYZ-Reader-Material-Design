@@ -3,7 +3,7 @@
 Fully revamped the style of the app including a new color scheme, a foldable toolbar, and animations. 
 
 For some reason I can't get the images to show here no matter what solution I try. 
-Screenshots of the app are located in the Screenshot folder.
+Screenshots of the app are located in the Screenshot folder where you can also find a gif of the animations in action.
 
 <img src="Screenshots/new_detail.png" />
 
