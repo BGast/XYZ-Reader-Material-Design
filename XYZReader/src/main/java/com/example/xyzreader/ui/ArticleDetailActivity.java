@@ -20,6 +20,18 @@ import android.view.ViewGroup;
 import android.view.WindowInsets;
 import android.widget.ImageView;
 
+import com.ToxicBakery.viewpager.transforms.AccordionTransformer;
+import com.ToxicBakery.viewpager.transforms.BackgroundToForegroundTransformer;
+import com.ToxicBakery.viewpager.transforms.CubeInTransformer;
+import com.ToxicBakery.viewpager.transforms.DefaultTransformer;
+import com.ToxicBakery.viewpager.transforms.DepthPageTransformer;
+import com.ToxicBakery.viewpager.transforms.FlipHorizontalTransformer;
+import com.ToxicBakery.viewpager.transforms.RotateDownTransformer;
+import com.ToxicBakery.viewpager.transforms.StackTransformer;
+import com.ToxicBakery.viewpager.transforms.TabletTransformer;
+import com.ToxicBakery.viewpager.transforms.ZoomInTransformer;
+import com.ToxicBakery.viewpager.transforms.ZoomOutSlideTransformer;
+import com.ToxicBakery.viewpager.transforms.ZoomOutTranformer;
 import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
 import com.example.xyzreader.data.ItemsContract;
@@ -82,9 +94,10 @@ implements LoaderManager.LoaderCallbacks<Cursor> {
 
         mPager.setCurrentItem(mCurrentPosition);
 
-        mPager.setPageMargin((int) TypedValue
-                .applyDimension(TypedValue.COMPLEX_UNIT_DIP, 1, getResources().getDisplayMetrics()));
-        mPager.setPageMarginDrawable(new ColorDrawable(0x22000000));
+        mPager.setPageTransformer(true, new BackgroundToForegroundTransformer());
+
+        // I also really like this one, keeping it here as a reminder
+        //mPager.setPageTransformer(true, new DepthPageTransformer());
 
         mPager.addOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
             @Override
