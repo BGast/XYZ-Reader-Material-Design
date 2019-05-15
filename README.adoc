@@ -5,5 +5,5 @@ Fully revamped the style of the app including a new color scheme, a collapsing t
 For some reason I can't get the images to show here no matter what solution I try. 
 Screenshots of the app are located in the Screenshot folder where you can also find a gif of the animations in action.
 
-<img src="Screenshots/Screenshot_1557884874.png" >
+<img src="Screenshots/Screenshot_1557884874.png" width="400"> 
 
